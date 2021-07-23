@@ -58,3 +58,15 @@ This is the ROC curve for the model predictions
 
 ![roc_curve](https://user-images.githubusercontent.com/84877574/126817081-15741b8f-2568-4fc8-81df-5cb230872f9e.png)
 
+## Next Steps
+
+I would like to test this model further on new data aquired from the Fannie Mae database
+Adding future data to train on would give the model more real foreclosures
+Improvements to front end deployment to make it more user friendly
+
+## Acknowledgements
+
+Huge thanks to:
+ * Raul Pena for his subject matter expertise and help selecting features
+ * Oswald Vinueza for answering my endless questions and providing me with great resources
+
