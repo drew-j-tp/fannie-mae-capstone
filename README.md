@@ -39,7 +39,7 @@ Here is that imbalanced visualized before and after
 
 ![after_smote](https://user-images.githubusercontent.com/84877574/126812796-fe79184c-753a-4e81-b881-090907e12958.png)
 
-## Modelling
+## Modeling
 
 Tested several models, eventually settling on XGBoost for it's performance on the loans that were foreclosed
 These are the results for my model against the testing set
