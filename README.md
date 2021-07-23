@@ -8,6 +8,19 @@ Can we use machine learning to successfully predict whether a loan will foreclos
 ## Data Preprocessing
 
 Data required extensive preprocessing to get it into a usable form
+ * Originally had 108 columns, narrowed to 12
+  * Current Interest Rate
+  * Original UPB
+  * Original Loan Term
+  * Loan Age
+  * Original Loan to Value Ratio (LTV)
+  * Number of Borrowers
+  * Debt-To-Income (DTI)
+  * First Time Home Buyer Indicator
+  * Modification Flag
+  * Home Ready Program Indicator
+  * High Balance Loan Indicator
+  * Min Borrower Credit Score
  * Needed to make each line a single loan
  * Testing set was 8,278,657 rows each representing an individual loan after processing
  * Dataset had a high imbalance, only .27% of loans were foreclosed on
@@ -62,7 +75,9 @@ This is the ROC curve for the model predictions
 ## Next Steps
 
 I would like to test this model further on new data aquired from the Fannie Mae database
+
 Adding future data to train on would give the model more real foreclosures
+
 Improvements to front end deployment to make it more user friendly
 
 ## Acknowledgements
