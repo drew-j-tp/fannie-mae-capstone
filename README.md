@@ -25,7 +25,8 @@ This is a look at how imbalanced the data was
 
 I checked for multicolinearity and correlation with my target varaible using a heatmap
 
-![correlation_heatmap](https://user-images.githubusercontent.com/84877574/126810977-8a56d028-698a-4d3e-a940-e0af0c2fb436.png)
+![correlation_heatmap](https://user-images.githubusercontent.com/84877574/126833374-3da60278-b7b7-4024-8fe9-d943666c5869.png)
+
 
 ## Sampling
 
