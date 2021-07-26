@@ -66,7 +66,8 @@ Here is an example of an individual tree from the model
 
 Here is the importance the model assigned to each variable
 
-   ![feature_importance](https://user-images.githubusercontent.com/84877574/126817036-1afe910a-fca8-481f-ad29-ecf520375d9b.png)
+![feature_importance](https://user-images.githubusercontent.com/84877574/127024507-b3e715d2-a729-4490-933a-c8acf9a2319c.png)
+
 
 This is the ROC curve for the model predictions
 
