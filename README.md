@@ -27,7 +27,7 @@ Data required extensive preprocessing to get it into a usable form
 
 ## Data Analysis
 
-I looked at the distrobution of variables and tried to find anomalies
+I looked at the distribution of variables and tried to find anomalies
 
 ![distrobutions](https://user-images.githubusercontent.com/84877574/126810531-443b55d6-0b02-41d9-8a17-23e524c991b7.png)
 
@@ -36,15 +36,15 @@ This is a look at how imbalanced the data was
 
 ![imbalance_countplot](https://user-images.githubusercontent.com/84877574/126810405-bf91bc88-fce5-4753-b93a-92f56302526f.png)
 
-I checked for multicolinearity and correlation with my target varaible using a heatmap
+I checked for multicollinearity and correlation with my target varaible using a heatmap
 
 ![correlation_heatmap](https://user-images.githubusercontent.com/84877574/126833374-3da60278-b7b7-4024-8fe9-d943666c5869.png)
 
 
 ## Sampling
 
-To give any model to a decent chance to predict foreclosures with such a high imbalance, both undersampling and oversampling were reqired
-I used SMOTE for oversampling, which is a common technique that creates synthetic data based on existing data
+To give any model to a decent chance to predict foreclosures with such a high imbalance, both undersampling and oversampling were reqired.
+I used SMOTE for oversampling, which is a common technique that creates synthetic data based on existing data.
 I tested many different ratios for sampling and discovered that higher oversampling gave better results, but I didn't want to train on exclusively synthetic data.
 Settled on undersampling so that we only had twice as much non-foreclosures as foreclosures, then oversampling to even amounts
 Here is that imbalanced visualized before and after
@@ -57,14 +57,10 @@ Here is that imbalanced visualized before and after
 
 ## Modeling
 
-Tested several models, eventually settling on XGBoost for it's performance on the loans that were foreclosed
+Tested several models, eventually settling on XGBoost for it's performance on the loans that were foreclosed.
 These are the results for my model against the testing set
 
-![confusion_matrix](https://user-images.githubusercontent.com/84877574/126816695-dc79601d-4738-4afd-8e42-ec3cc688cb3c.png)
-
-Here is an example of an individual tree from the model
-
-![tree](https://user-images.githubusercontent.com/84877574/126816626-432b495e-5668-4c23-9c35-a96538369e09.png)
+![confusion_matrix](https://user-images.githubusercontent.com/84877574/127205596-21d1c494-9223-4d8a-bb87-fea6c1027ef4.png)
 
 Here is the importance the model assigned to each variable
 
@@ -81,7 +77,7 @@ I would like to test this model further on new data aquired from the Fannie Mae 
 
 Adding future data to train on would give the model more real foreclosures
 
-Improvements to front end deployment to make it more user friendly
+Broadening from foreclosures to more general losses like short sales, deeds in lieu of foreclosure
 
 ## Acknowledgements
 
