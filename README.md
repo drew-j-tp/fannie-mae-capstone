@@ -53,6 +53,8 @@ Here is that imbalanced visualized before and after
 
 ![after_smote](https://user-images.githubusercontent.com/84877574/126812796-fe79184c-753a-4e81-b881-090907e12958.png)
 
+8255841 rows were reduced to just 45632
+
 ## Modeling
 
 Tested several models, eventually settling on XGBoost for it's performance on the loans that were foreclosed
