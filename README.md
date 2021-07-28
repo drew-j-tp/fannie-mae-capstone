@@ -8,6 +8,7 @@ Can we use machine learning to successfully predict whether a loan will foreclos
  * Current model has 80% accuracy on test data
  * Using classification models
  * SciKit-Learn and Python
+Foreclosures are a big loss for Fannie Mae
 
 ## Data Preprocessing
 
