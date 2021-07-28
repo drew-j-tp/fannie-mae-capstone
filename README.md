@@ -7,7 +7,7 @@ Can we use machine learning to successfully predict whether a loan will foreclos
     * 2016-2019 for recency but avoiding foreclosure moratorium
  * Current model has 80% accuracy on test data
  * Using classification models
- * SciKit-Learn, Python, XGBoost
+ * SciKit-Learn, Python, XGBoost, PostgreSQL
 
 Foreclosures are a big loss for Fannie Mae
 
