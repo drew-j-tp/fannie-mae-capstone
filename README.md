@@ -14,6 +14,7 @@ Foreclosures are a big loss for Fannie Mae
 ## Data Preprocessing
 
 Data required extensive preprocessing to get it into a usable form
+ * Estimated 160 million rows before processing
  * Originally had 108 columns, narrowed to 12
    * Current Interest Rate
    * Original UPB
