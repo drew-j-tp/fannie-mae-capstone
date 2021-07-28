@@ -77,7 +77,7 @@ I would like to test this model further on new data aquired from the Fannie Mae 
 
 Adding future data to train on would give the model more real foreclosures
 
-Broadening from foreclosures to more general losses like short sales, deeds in lieu of foreclosure
+Broadening from foreclosures to more general losses like short sales
 
 ## Acknowledgements
 
